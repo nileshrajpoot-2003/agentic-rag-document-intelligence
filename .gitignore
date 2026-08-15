@@ -1,0 +1,44 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated vector stores / indexes
+faiss_index/
+vectorstore/
+
+# Uploaded documents / local data
+data/*
+!data/.gitkeep
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
